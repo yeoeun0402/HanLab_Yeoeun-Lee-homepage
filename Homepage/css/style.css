@@ -1,0 +1,49 @@
+.box1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  width: full;
+  height: full;
+}
+
+.box2 {
+  position: sticky;
+  top: 100px;
+  flex-shrink: 0;
+  height: fit-content;
+}
+
+.box3 {
+  overflow: auto;
+  width: 1000px;
+  height: 800px;
+  -ms-overflow-style: none;
+}
+
+.box3::-webkit-scrollbar {
+  display: none;
+}
+
+.profile-image {
+  width: 156px;
+  height: 200px;
+}
+
+.left-box {
+  border-bottom: 10px;
+}
+
+.color-box {
+  padding-right: 10px;
+  margin: 0px;
+  background-color: #003876;
+  width: full;
+  height: 60px;
+  color: #ffffff;
+  font-size: 20px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
